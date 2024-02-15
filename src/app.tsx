@@ -54,8 +54,8 @@ export function App() {
   const filteredNotes =
     search !== ""
       ? notes.filter((note) =>
-          note.content.toLocaleLowerCase().includes(search.toLocaleLowerCase())
-        )
+        note.content.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+      )
       : notes;
 
   return (
